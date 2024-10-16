@@ -1,4 +1,6 @@
 body {
+    background-image: url(./images/basketballcourt.jpg);
+    background-size: cover;
     margin: 0;
 }
 
