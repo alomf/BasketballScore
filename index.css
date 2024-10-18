@@ -1,10 +1,82 @@
 body {
-    background-image: url(./images/basketballcourt.jpg);
+    font-family: 'cursedTimer';
+    font-family: 'Roboto', sans-serif;
+    background-image: url("./images/basketballcourt.jpg");
     background-size: cover;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h3 {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: #FFFFFF;
+    padding: 50px 50px;
+    background: #1B244A;
+
+}
+  
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reset {
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scoreboard-bg {
+    background-color: #080001;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#total-home, #total-away {
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: 180px;
+    padding-top: 30px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.score-btn, .reset-btn{
+    border: 4px solid #9AABD8;
+    border-radius: 10px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #1B244A;
+    color: #9AABD8;
 }
